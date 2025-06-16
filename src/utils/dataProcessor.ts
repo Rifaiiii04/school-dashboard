@@ -31,7 +31,6 @@ export const processStudentData = (
   return {
     id: student.id,
     nama: student.nama || "Tidak ada nama",
-    noTelp: student.nomor || "-",
     gender: student.gender || "Tidak diketahui",
     character: personalityInfo ? personalityInfo.name : "Belum dianalisis",
     // --- PERUBAHAN DI SINI ---

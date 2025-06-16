@@ -29,7 +29,6 @@ export interface Aptitude {
 export interface RawStudentData {
   id: string;
   nama: string;
-  nomor?: string;
   email?: string;
   gender: string;
   sekolah: number;
@@ -40,7 +39,6 @@ export interface RawStudentData {
 export interface ProcessedStudent {
   id: string;
   nama: string;
-  noTelp: string;
   gender: string;
   character: string;
   persona: string;

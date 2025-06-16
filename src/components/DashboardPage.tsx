@@ -179,7 +179,6 @@ const DashboardPage: React.FC<DashboardPageProps> = ({
               <tr>
                 {[
                   "Nama",
-                  "No Telp",
                   "Gender",
                   "Character",
                   "Persona",
@@ -202,9 +201,6 @@ const DashboardPage: React.FC<DashboardPageProps> = ({
                   <tr key={student.id} className="hover:bg-gray-50">
                     <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                       {student.nama}
-                    </td>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                      {student.noTelp}
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500 capitalize">
                       {student.gender}
